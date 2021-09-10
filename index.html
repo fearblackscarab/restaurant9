@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Restaurant</title>
 </head>
 
@@ -22,7 +22,7 @@
         <section class="section1">
             <div class="container container-fluid">
                 <div class="row">
-                    <ul class="social-list col-12 text-right">
+                    <ul class="social-list col-12 text-center">
                         <li class="social-item d-inline"><svg class="icon icon-google-plus">
                                 <use xlink:href="#icon-google-plus"></use>
                             </svg>
@@ -50,15 +50,18 @@
         <section class="section2">
             <div class="container container-fluid">
                 <div class="row">
-                    <h1 class="header-logo">Restaurant</h1>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Dropdown button
+                    <h1 class="header-logo col-12 text-center">Restaurant</h1>
+                    <div class="dropdown col-12 text-center">
+                        <button class="btn btn-secondary dropdown-toggle dropdown-nav w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          about
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="#">ABOUT</a>
+                          <a class="dropdown-item" href="#">EVENTS</a>
+                          <a class="dropdown-item" href="#">MENU</a>
+                          <a class="dropdown-item" href="#">GALLERY</a>
+                          <a class="dropdown-item" href="#">CONTACTS</a>
+
                         </div>
                       </div>
                     <nav class="nav top-nav">
@@ -75,10 +78,12 @@
         <section class="section3">
             <div class="container container-fluid">
                 <div class="row">
-                    <p class="slogan">Top quality ingrediants only in our kitchen!</p>
-                    <div class="search-content">
-                        <input type="search">
+                    <p class="slogan col-12 text-center">Top quality ingrediants only in our kitchen!</p>
+                    <div class="search-content col-12">
+                        <div class="search-div mx-auto">
+                        <input type="search " class="search">
                         <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -86,17 +91,16 @@
     </header>
     <main class="main" id="main">
         <section class="section1">
-            <div class="container container-fluid">
                 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="media/Capture.PNG" class="d-block w-100" alt="salid of the day">
                       </div>
                       <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="media/Capture.PNG" class="d-block w-100" alt="salid of the day">
                       </div>
                       <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="media/Capture.PNG" class="d-block w-100" alt="salid of the day">
                       </div>
                     </div>
                     <a class="carousel-control-prev carousel-style" href="#carouselExampleControlsNoTouching" role="button" data-slide="prev">
@@ -107,52 +111,51 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
-                  </div>
             </div>
         </section>
         <section class="section2">
             <div class="container container-fluid">
                 <div class="row">
                     <div class="card-group">
-                        <div class="card">
-                          <img src="..." class="card-img-top" alt="...">
+                        <div class="card block">
+                          <img src="media/location.png" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title card-header">Card title</h5>
+                            <h5 class="card-title">LOCATION FINDER</h5>
                             <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                           </div>
                         </div>
-                        <div class="card">
-                          <img src="..." class="card-img-top" alt="...">
+                        <div class="card block">
+                          <img src="media/burger.png" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title card-header">Card title</h5>
+                            <h5 class="card-title">FOOD QUALITY & MENU</h5>
                             <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                           </div>
                         </div>
-                        <div class="card">
-                          <img src="..." class="card-img-top" alt="...">
+                        <div class="card block">
+                          <img src="media/chef.png" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title card-header">Card title</h5>
+                            <h5 class="card-title">EMPLOYMENT</h5>
                             <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                           </div>
                         </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card block">
+                            <img src="media/story.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title card-header">Card title</h5>
+                              <h5 class="card-title">OUR STORY</h5>
                               <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                             </div>
                           </div>
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                          <div class="card block">
+                            <img src="media/line.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title card-header">Card title</h5>
+                              <h5 class="card-title">PROMOTIONS</h5>
                               <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                             </div>
                           </div>
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                          <div class="card block">
+                            <img src="media/food.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title card-header">Card title</h5>
+                              <h5 class="card-title">FRESH IDEAS</h5>
                               <p class="card-text">Lipsum sit amet consectetur adipisicing elit.</p>
                             </div>
                           </div>
@@ -186,7 +189,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="order-group col-12">
+                    <div class="order-group col-12 d-none d-md-block">
                         <div class="row">
                         <div class="icon-head"><svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg></div>
                         <div class="order-content">
