@@ -121,6 +121,11 @@
 /* main */
 /* section1 */
 
+.collapse-carousel{
+    z-index: -1;
+    margin-bottom: -25%;
+}
+
 /* end section1 */
 /* section2 */
 
